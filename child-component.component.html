@@ -1,0 +1,12 @@
+
+<!-- <select>  
+  <option *ngFor="let prod of hero">{{prod.name}} </option>  
+</select>  -->
+<button (click)="disp()">ok</button>
+<div class="dropdown">
+<ngx-select-dropdown [config]="config" [options]="hero" 
+            [(value)]="dataModel" [multiple]="true" >
+  </ngx-select-dropdown>
+</div>
+  <h3>{{value}}</h3>
+  
